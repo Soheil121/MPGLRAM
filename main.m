@@ -38,7 +38,7 @@ R0=zeros(m,d);
 R0(1:d,1:d)=eye(d);
 
 %% The first level of multiple k-pairs of transportaion
-tic
+
 for j=1:K_
     
     L{j}=L0;
@@ -56,6 +56,9 @@ end
 
 %% MPGLRAM function
 [L,D,R,M]=MPGLRAM__(original_data, DATA, L,D,R,n,K_,d,ite);
-toc
 
-
+%% Calculating Error 
+%%RMSRE
+%ERROR(L, D, R, DATA, n,K_)
+%%PSNR
+%PSNR(L, D, R, DATA, n,K_,m)
