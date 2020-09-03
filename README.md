@@ -1,6 +1,8 @@
 # MPGLRAM
 GLRAM based on multiple transformation pairs
 
+MPGLRAM algorithm proposed in "Ahmadi S, Rezghi M. Generalized Low-Rank Approximation of Matrices based on multiple transformation pairs. Pattern Recognition. 2020 Jul 14:107545."
+
 1. Load the data
 2. Initialize the parameters
 3. Reshape the data into n cells where each cell indicates a sample
